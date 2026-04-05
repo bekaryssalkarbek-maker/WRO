@@ -1,4 +1,4 @@
-# **Electronic Components**
+# **Electronics**
 ## **Movement & Power Components**
 | Components | Image | Description |
 |------------|-------|------------|
@@ -7,3 +7,16 @@
 |       mg996r v17     |    ![mg996r v17](https://github.com/user-attachments/assets/93aa6d62-c5ba-42ee-b0fb-3a9695d8cc29) |      MG996R V17 Servo Motor – High torque, Digital, Rotation ~180°, Operating voltage 4.8–7.2 V, Speed 0.17 s/60° (6 V), Metal gears, Standard size.      |
 |      HW-411      |   ![HW-411](https://github.com/user-attachments/assets/de25cf16-1348-4981-8cdb-a0039846c536) |      HW‑411 DC‑DC Buck Converter Module – Adjustable step‑down voltage regulator (LM2596S), Input 4–40 V, Output 1.25–35 V (adjustable), Max current ≈3 A, High efficiency (~92%), Overheat and short‑circuit protectio      |
 
+## **Electronic Components**
+| Components | Image | Description |
+|------------|-------|------------|
+|      Cam V2.1 v1      |    ![Cam V2 1 v1](https://github.com/user-attachments/assets/ee0a79a6-f9e2-4918-bddf-491ba659f31b) |      Raspberry Pi Camera Module V2 (RPI-CAM-V2) – 8 MP Sony IMX219 sensor, resolution 3280×2464, video 1080p30 / 720p60 / 480p90, interface CSI (15-pin ribbon cable), operating voltage 3.3 V, size ≈25×23×9 mm, weight ≈3 g.      |
+|            |       |            |
+|            |       |            |
+|            |       |            |
+|            |       |            |
+|            |       |            |
+|            |       |            |
+|            |       |            |
+|            |       |            |
+|            |       |            |
