@@ -94,11 +94,46 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 
 <img width="720" height="1280" alt="photo_2026-04-16_02-32-52" src="https://github.com/user-attachments/assets/7acfaac6-ecf2-4e52-9997-0fc8be28b0bb" />
 
+#### **Phase 1: Base Structure & Foundation Assembly**
+
+  **- Bottom Layer Construction:** The assembly process began with the bottom structural layer, forming the main chassis “floor” as the primary load-bearing foundation for all components
+ 
+  **- Motor Installation:** Integration of the Yellow DC TT Gear Motor (3V–6V, 130–290 rpm, 1:48 gear ratio) as the main drivetrain motor, mounted securely onto the base structure
+  
+   **- Initial Mechanical Alignment:** Early verification of structural alignment to ensure correct positioning of drivetrain components before upper assembly
 
 
 
 
+#### **Phase 2: Electronics & Core System Integration**
 
+**-  Electronics Mounting:** Installation of the Raspberry Pi and supporting electronic components directly onto the base layer for compact and stable integration
+ 
+**-  Wiring & Connectivity Setup:** Organization and connection of all power and control wiring to ensure clean routing and accessibility
+ 
+**-  Power System Integration:** Placement of the battery in an optimized position to maintain stable weight distribution and balance
+
+
+
+
+#### **Phase 3: Upper Structure & Mechanical Systems**
+
+**-  Chassis Completion:** Installation of upper structural elements to protect internal systems while maintaining modular accessibility
+ 
+**-  Steering System Integration:** Assembly of the front steering mechanism, including rotator system, with adjustments to avoid spatial conflicts with the bumper
+ 
+**-  Wheel & Differential Installation:** Final integration of wheels and LEGO differential system, ensuring smooth torque transfer and correct alignment with the drivetrain
+
+
+
+
+#### **Phase 4: Final System Assembly & Validation**
+
+ **- Full System Integration:** Connection of mechanical, electrical, and control systems into a unified working robot
+ 
+ **- Structural Verification:** Final checks of mechanical stability, component fitment, and assembly integrity
+ 
+ **- Functional Testing:** Validation of drivetrain efficiency, steering response, and overall robot movement performance
 
 
 
@@ -114,3 +149,32 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
  • Differential integration approach: Due to limitations of the 3D printer in producing small and precise mechanical tolerances, a LEGO differential system was adopted and successfully integrated into the drivetrain for reliable and smooth operation.
  
  • System integration validation: Continuous testing ensured compatibility between LEGO mechanical elements, 3D-printed parts, and the Raspberry Pi-based control system, improving overall system reliability and assembly efficiency.
+
+## **🎯Performance Analysis**
+
+
+
+
+
+## **📊Engineering Calculations & Performance Validation**
+
+
+## **📁Complete Manufacturing File Repository**
+#### **3D Printing Files & Assembly Specifications**
+| Component | File | Quantity | CAD/Photo Preview | Description |
+|-----------|------|----------|-------------|-------------|
+| **Main Chassis** | [`design_base.3mf`](design_base.3mf) | 1 | <img src="CAD_design_base_1.jpg" width="100"><img src="CAD_design_base_2.jpg" width="100"> | Primary structure with integrated mounting system |
+| **LEGO 4-Gear Differential** | [`design_4_gear_mini_differential.3mf`](design_4_gear_mini_differential.3mf) | 1 | <img src="CAD_design_4_gear_mini_differential_1.jpg" width="100"><img src="CAD_design_4_gear_mini_differential_2.jpg" width="100"> | A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering.|
+| **Bumper** | [`design_front_rim_bearing.3mf`](design_front_rim_bearing.3mf) | 2 | <img src="CAD_design_front_rim_bearing_1.jpg" width="100"><img src="CAD_design_front_rim_bearing_2.jpg" width="100"> | A front bumper is a structural protective component mounted on the front of the robot, designed to absorb minor impacts and protect internal systems while maintaining clearance for the steering mechanism, and it also serves as a mounting point for LED headlights. |
+| **Steering Arm** | [`design_steering_arm.3mf`](design_steering_arm.3mf) | 2 | <img src="CAD_design_steering_arm_1.jpg" width="100"><img src="CAD_design_steering_arm_2.jpg" width="100"> | Ackermann steering arms (left/right) |
+| **Steering Linkage** | [`design_steering_linkage.3mf`](design_steering_linkage.3mf) | 1 | <img src="CAD_design_steering_linkage.jpg" width="100"> | Steering connection mechanism |
+| **25T Spur Gear** | [`design_spur_25_gear.3mf`](design_spur_25_gear.3mf) | 1 | <img src="CAD_design_spur_25_gear_1.jpg" width="100"><img src="CAD_design_spur_25_gear_2.jpg" width="100"> | 25-tooth torque transmission gear |
+| **26T Spur Gear** | [`design_spur_26_gear.3mf`](design_spur_26_gear.3mf) | 1 | <img src="CAD_design_spur_26_gear_1.jpg" width="100"><img src="CAD_design_spur_26_gear_2.jpg" width="100"> | 26-tooth motor output gear |
+| **12T Bevel Gear** | [`design_bevel_12_gear.3mf`](design_bevel_12_gear.3mf) | 4 | <img src="CAD_design_bevel_12_gear_1.jpg" width="100"><img src="CAD_design_bevel_12_gear_2.jpg" width="100"> | Differential bevel gears (4 required for full assembly) |
+| **Motor Lid** | [`design_motor_lid.3mf`](design_motor_lid.3mf) | 1 | <img src="CAD_design_motor_lid.jpg" width="100"> | N20 motor mounting enclosure |
+| **Long Rear Rim** | [`design_back_rim_long.3mf`](design_back_rim_long.3mf) | 1 | <img src="CAD_design_back_rim_long.jpg" width="100"> | Extended for right side, connecting farther from the gear |
+| **Short Rear Rim** | [`design_back_rim_short.3mf`](design_back_rim_short.3mf) | 1 | <img src="CAD_design_back_rim_short.jpg" width="100"> | Shorter for left side, connecting closer to the gear |
+| **Front Top Cover** | [`design_front_top_cover.3mf`](design_front_top_cover.3mf) | 1 | <img src="CAD_design_front_top_cover_1.jpg" width="100"><img src="CAD_design_front_top_cover_2.jpg" width="100"> | Electronics protection cover |
+| **Front Bottom Cover** | [`design_front_bottom_cover.3mf`](design_front_bottom_cover.3mf) | 1 | <img src="CAD_design_front_bottom_cover.jpg" width="100"> | Underbody protection |
+| **Button Cap** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
+
