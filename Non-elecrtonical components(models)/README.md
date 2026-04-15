@@ -8,10 +8,10 @@ This folder contains the complete 3D CAD models and manufacturing files for the 
 
 
 
-## **🎯Design Goals**
+## **🎯Design Goals:**
 Our design focused on achieving high performance while maintaining a structure similar to a real vehicle. Instead of minimizing size and weight, we optimized the chassis to complete the track in the shortest possible time while ensuring stability and reliable component placement. Special attention was given to realistic vehicle proportions and efficient internal layout so that all mechanical and electronic components could operate without interference inside a compact structure.
 
-## **⚙️Steering and 4-Gear Mechanical Differential systems** 
+## **⚙️Steering and 4-Gear Mechanical Differential systems:** 
 The steering system is designed as a hybrid LEGO and 3D-printed mechanism with the following goals:
  • Provide **precise and repeatable turning control** for accurate navigation on the WRO field
  
@@ -27,7 +27,7 @@ The steering system is designed as a hybrid LEGO and 3D-printed mechanism with t
  
  • Ensure stable and predictable behavior of the robot during movement on a **3×3 meter competition field**
 
-## **🏗️Chassis and Structural Design**
+## **🏗️Chassis and Structural Design:**
 • Provide a **strong and stable base structure** capable of supporting all electronic and mechanical components
 
  • Maintain an effective **balance between structural strength and lightweight construction** to improve speed and efficiency
@@ -44,10 +44,10 @@ The steering system is designed as a hybrid LEGO and 3D-printed mechanism with t
  
  • Ensure stable positioning of key systems such as the **differential, steering system, motors, and control electronics**
 
- ## **🏭Manufacturing Process**
+ ## **🏭Manufacturing Process:**
  We utilized a locally available 3D printer within our workspace to manufacture custom-designed components. This allowed us to rapidly prototype parts, test different design iterations, and refine mechanical performance efficiently during the development process.
 
-### **🖨️CAD & Slicing Software Integration**
+### **🖨️CAD & Slicing Software Integration:**
  • **Design Platform:** Autodesk Fusion for comprehensive 3D modeling, simulation, and engineering analysis
  
  • **Slicing Software:** Creality Print 7 for optimized print preparation and manufacturing parameter management
@@ -58,3 +58,21 @@ The steering system is designed as a hybrid LEGO and 3D-printed mechanism with t
 
  <img width="960" height="1280" alt="3d printer" src="https://github.com/user-attachments/assets/e73dc7a7-d24a-484a-8bfe-30a47b6a5575" />
 
+## **🛠️Comprehensive Material Selection Process:**
+**Final Material:**
+
+**Material Testing Results & Explanation:**
+
+**Selection Explanation**
+
+## **🔥Engineering Challenge:**
+During the mechanical design process, we encountered several structural challenges that required iterative improvements:
+
+ **• Front bumper and wheel rotator sharing the same space:**
+The initial design resulted in a spatial conflict where the front bumper and the wheel rotator (steering mechanism) occupied overlapping space. This caused limitations in assembly and restricted the movement of the steering system. To solve this issue, we redesigned the bumper in Autodesk Fusion, adjusting its geometry and repositioning it to provide dedicated clearance for the wheel rotator, ensuring full steering functionality without compromising the overall structure.
+#### **First Model**
+
+
+
+ **• Upper enclosure cover interfering with Raspberry Pi connections:**
+The top cover of the electronics enclosure, which holds the Raspberry Pi, partially blocked access to several GPIO pin connections. This problem was solved by physically removing a small section of the cover that did not affect the structural integrity or external appearance of the robot, allowing proper cable routing and reliable connections.
