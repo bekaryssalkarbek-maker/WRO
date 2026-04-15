@@ -1,5 +1,10 @@
 # **Models documentation**
-This folder contains the complete 3D CAD models and manufacturing files for the team **CyberBots** **WRO 2026 Future Engineers** robot. All mechanical components were carefully designed and assembled to achieve our goal of completing the track in the shortest possible time while keeping the robot’s external structure as similar as possible to a real vehicle. The design process focused on improving stability, component placement efficiency, and realistic vehicle proportions while ensuring reliable integration of all systems inside a compact chassis.
+This folder contains the complete 3D CAD models and manufacturing files for the team CyberBots WRO 2026 Future Engineers robot. All mechanical components were carefully designed and assembled to achieve our goal of completing the track in the shortest possible time while keeping the robot’s external structure as similar as possible to a real vehicle. The initial structural concept was inspired by the Mars Rover, particularly in terms of base layout, after which the design was further adapted to resemble a conventional ground vehicle. The design process focused on improving stability, component placement efficiency, and realistic vehicle proportions while ensuring reliable integration of all systems inside a compact chassis.
+| | |
+|---|---|
+| ![](<img width="990" height="484" alt="Screenshot 2026-04-15 at 11 12 22" src="https://github.com/user-attachments/assets/5b7f8123-7650-46a6-9aa4-2b53e78525fb" />) | ![](![photo_2026-04-15_23-16-42](https://github.com/user-attachments/assets/a3bb1ee5-dd91-46bd-a6cb-66466e984438)) |
+
+
 
 ## **Design Goals**
 Our design focused on achieving high performance while maintaining a structure similar to a real vehicle. Instead of minimizing size and weight, we optimized the chassis to complete the track in the shortest possible time while ensuring stability and reliable component placement. Special attention was given to realistic vehicle proportions and efficient internal layout so that all mechanical and electronic components could operate without interference inside a compact structure.
