@@ -166,11 +166,11 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 | **Front right wheel fender** |  | 1 |   | <img width="581" height="529" alt="Снимок экрана 2026-04-16 142253" src="https://github.com/user-attachments/assets/7eec2aef-ac16-4f15-affb-9eb86770cd17" />  |
 | **Disk for wheel** |  | 4 |  | <img width="505" height="339" alt="Снимок экрана 2026-04-16 120709" src="https://github.com/user-attachments/assets/e118a329-f708-470c-b00f-0f14c5747433" />  |
 | **Servo Gear** |  | 1 |   | <img width="442" height="446" alt="Снимок экрана 2026-04-16 113454" src="https://github.com/user-attachments/assets/c9bd2d08-e307-4eea-8f5d-15806db6785b" /> |
-| **Left holder** |  | 1 | <img src="CAD_design_back_rim_long.jpg" width="100"> | <img width="591" height="445" alt="Снимок экрана 2026-04-16 143249" src="https://github.com/user-attachments/assets/5e96fae0-6a19-4f36-b9bd-c2e22ead2b49" />  |
-| **Right holder** |  | 1 | <img src="CAD_design_back_rim_short.jpg" width="100"> | <img width="591" height="445" alt="Снимок экрана 2026-04-16 143249" src="https://github.com/user-attachments/assets/e4a8cada-1572-4309-9d1b-f13473132678" />  |
-| **Lidar holder** |  | 1 | <img src="CAD_design_front_top_cover_1.jpg" width="100"><img src="CAD_design_front_top_cover_2.jpg" width="100"> | <img width="631" height="434" alt="Снимок экрана 2026-04-16 140928" src="https://github.com/user-attachments/assets/87ab3294-97bf-4869-b7da-bec91e4faf91" /> |
+| **Left holder** |  | 1 |  | <img width="591" height="445" alt="Снимок экрана 2026-04-16 143249" src="https://github.com/user-attachments/assets/5e96fae0-6a19-4f36-b9bd-c2e22ead2b49" />  |
+| **Right holder** |  | 1 |  | <img width="591" height="445" alt="Снимок экрана 2026-04-16 143249" src="https://github.com/user-attachments/assets/e4a8cada-1572-4309-9d1b-f13473132678" />  |
+| **Lidar holder** |  | 1 |  | <img width="631" height="434" alt="Снимок экрана 2026-04-16 140928" src="https://github.com/user-attachments/assets/87ab3294-97bf-4869-b7da-bec91e4faf91" /> |
 | **Lower left body panel** |  | 1 |  | <img width="501" height="468" alt="Снимок экрана 2026-04-16 140342" src="https://github.com/user-attachments/assets/cc8de552-ae55-481c-b917-31fe9651449e" /> |
-| **Lower right body panel** |   | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> |  |
+| **Lower right body panel** |   | 1 |  | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100">  |
 | **Upper right body panel** |   | 1 |  |  <img width="577" height="441" alt="Снимок экрана 2026-04-16 135838" src="https://github.com/user-attachments/assets/bdb19c56-4f39-488e-bd08-6972e738974a" />  |
 | **Upper left body panel** |   | 1 |   |  <img width="488" height="497" alt="Снимок экрана 2026-04-16 140112" src="https://github.com/user-attachments/assets/e2fa7855-ffcc-46fe-a3d2-e4ea9cf8ce7f" />  |
 | **Motor holder** |   | 1 |  | <img width="476" height="185" alt="Снимок экрана 2026-04-16 113226" src="https://github.com/user-attachments/assets/8a2ecd13-bc6b-4f54-bf51-e770bfbf5672" /> |
