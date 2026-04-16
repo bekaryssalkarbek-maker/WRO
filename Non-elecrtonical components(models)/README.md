@@ -83,6 +83,7 @@ The top cover of the electronics enclosure, which holds the Raspberry Pi, partia
 <img width="503" height="412" alt="Снимок экрана 2026-04-16 015659" src="https://github.com/user-attachments/assets/3f88304d-6a00-419f-a4e0-6797c06a0604" />
 
 #### **Modified Model**
+ <img width="960" height="1280" alt="photo_2026-04-16_13-39-19" src="https://github.com/user-attachments/assets/162d14e3-075f-4eae-80b3-6145b4859bd9" />
 
 
 **• Differential manufacturing limitations due to 3D printing constraints:**
@@ -96,48 +97,41 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 
 #### **Phase 1: Base Structure & Foundation Assembly**
 
-  **- Bottom Layer Construction:** The assembly process began with the bottom structural layer, forming the main chassis “floor” as the primary load-bearing foundation for all components
+ **• Bottom Layer Construction:** The assembly process began with the bottom structural layer, forming the main chassis “floor” as the primary load-bearing foundation for all components
  
-  **- Motor Installation:** Integration of the Yellow DC TT Gear Motor (3V–6V, 130–290 rpm, 1:48 gear ratio) as the main drivetrain motor, mounted securely onto the base structure
-  
-   **- Initial Mechanical Alignment:** Early verification of structural alignment to ensure correct positioning of drivetrain components before upper assembly
+**• Electronics Mounting:** Installation of the Raspberry Pi and supporting electronic components directly onto the base layer for compact and stable integration
+
+**• Wiring & Connectivity Setup:** Organization and connection of all power and control wiring to ensure clean routing and accessibility
+
+**• Motor Installation:** Integration of the Yellow DC TT Gear Motor (3V–6V, 130–290 rpm, 1:48 gear ratio) as the main drivetrain motor, mounted securely onto the base structure
+
+**• Power System Integration:** Placement of the battery in an optimized position to maintain stable weight distribution and balance
+
+**• Initial Mechanical Alignment:** Early verification of structural alignment to ensure correct positioning of drivetrain components before upper assembly
 
 
 
 
-#### **Phase 2: Electronics & Core System Integration**
+#### **Phase 2: Upper Structure & Mechanical Systems**
 
-**-  Electronics Mounting:** Installation of the Raspberry Pi and supporting electronic components directly onto the base layer for compact and stable integration
- 
-**-  Wiring & Connectivity Setup:** Organization and connection of all power and control wiring to ensure clean routing and accessibility
- 
-**-  Power System Integration:** Placement of the battery in an optimized position to maintain stable weight distribution and balance
+**• Chassis Completion:** Installation of upper structural elements to protect internal systems while maintaining modular accessibility
 
+**• Steering System Integration:** Assembly of the front steering mechanism, including rotator system, with adjustments to avoid spatial conflicts with the bumper
 
+**• Wheel & Differential Installation:** Final integration of wheels and LEGO differential system, ensuring smooth torque transfer and correct alignment with the drivetrain
 
 
-#### **Phase 3: Upper Structure & Mechanical Systems**
+#### **Phase 3: Final System Assembly & Validation**
 
-**-  Chassis Completion:** Installation of upper structural elements to protect internal systems while maintaining modular accessibility
- 
-**-  Steering System Integration:** Assembly of the front steering mechanism, including rotator system, with adjustments to avoid spatial conflicts with the bumper
- 
-**-  Wheel & Differential Installation:** Final integration of wheels and LEGO differential system, ensuring smooth torque transfer and correct alignment with the drivetrain
+**• Full System Integration:** Connection of mechanical, electrical, and control systems into a unified working robot
+
+**• Structural Verification:** Final checks of mechanical stability, component fitment, and assembly integrity
+
+**• Functional Testing:** Validation of drivetrain efficiency, steering response, and overall robot movement performance
 
 
 
-
-#### **Phase 4: Final System Assembly & Validation**
-
- **- Full System Integration:** Connection of mechanical, electrical, and control systems into a unified working robot
- 
- **- Structural Verification:** Final checks of mechanical stability, component fitment, and assembly integrity
- 
- **- Functional Testing:** Validation of drivetrain efficiency, steering response, and overall robot movement performance
-
-
-
-## **🔄Component Development & Engineering Iteration**
+## **🔄Component Development & Engineering Itegration**
 **Component Development & Engineering Iteration**
 
 • Gear system evolution: The drivetrain was developed through multiple iterations, combining LEGO gear components with optimized alignment to improve smooth torque transfer and reduce friction losses.
@@ -166,23 +160,24 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 | **Main Chassis** | 1 | <img src="CAD_design_base_1.jpg" width="100"><img src="CAD_design_base_2.jpg" width="100"> | Primary structure with integrated mounting system |
 | **LEGO 4-Gear Differential**  | 1 | <img src="CAD_design_4_gear_mini_differential_1.jpg" width="100"><img src="CAD_design_4_gear_mini_differential_2.jpg" width="100"> | A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering.|
 | **Bumper** | 2 |  A front bumper is a structural protective component mounted on the front of the robot, designed to absorb minor impacts and protect internal systems while maintaining clearance for the steering mechanism, and it also serves as a mounting point for LED headlights | <img width="556" height="422" alt="Снимок экрана 2026-04-16 015010" src="https://github.com/user-attachments/assets/1a684ae9-2750-41ef-a5d2-e526f7f97032" /> |
-| **Back right wheel fender** | [`design_steering_arm.3mf`](design_steering_arm.3mf) | 2 | <img src="CAD_design_steering_arm_1.jpg" width="100"><img src="CAD_design_steering_arm_2.jpg" width="100"> | Ackermann steering arms (left/right) |
-| **Back left wheel fender** | [`design_steering_linkage.3mf`](design_steering_linkage.3mf) | 1 | <img src="CAD_design_steering_linkage.jpg" width="100"> | Steering connection mechanism |
+| **Back right wheel fender** |   |  |
+| **Back left wheel fender** |  |  |
 | **Front left wheel fender** | [`design_spur_25_gear.3mf`](design_spur_25_gear.3mf) | 1 | <img src="CAD_design_spur_25_gear_1.jpg" width="100"><img src="CAD_design_spur_25_gear_2.jpg" width="100"> | 25-tooth torque transmission gear |
 | **Front right wheel fender** | [`design_spur_26_gear.3mf`](design_spur_26_gear.3mf) | 1 | <img src="CAD_design_spur_26_gear_1.jpg" width="100"><img src="CAD_design_spur_26_gear_2.jpg" width="100"> | 26-tooth motor output gear |
-| **Disk for wheel** | [`design_bevel_12_gear.3mf`](design_bevel_12_gear.3mf) | 4 |  | <img width="505" height="339" alt="Снимок экрана 2026-04-16 120709" src="https://github.com/user-attachments/assets/7aec389c-f352-4e0c-b070-24c904260369" />  |
+| **Disk for wheel** | [`design_bevel_12_gear.3mf`](design_bevel_12_gear.3mf) | 4 |  | <img width="505" height="339" alt="Снимок экрана 2026-04-16 120709" src="https://github.com/user-attachments/assets/e118a329-f708-470c-b00f-0f14c5747433" />  |
 | **Servo Gear** | [`design_motor_lid.3mf`](design_motor_lid.3mf) | 1 |   | <img width="442" height="446" alt="Снимок экрана 2026-04-16 113454" src="https://github.com/user-attachments/assets/c9bd2d08-e307-4eea-8f5d-15806db6785b" /> |
 | **Left holder** | [`design_back_rim_long.3mf`](design_back_rim_long.3mf) | 1 | <img src="CAD_design_back_rim_long.jpg" width="100"> | Extended for right side, connecting farther from the gear |
 | **Right holder** | [`design_back_rim_short.3mf`](design_back_rim_short.3mf) | 1 | <img src="CAD_design_back_rim_short.jpg" width="100"> | Shorter for left side, connecting closer to the gear |
 | **Lidar holder** | [`design_front_top_cover.3mf`](design_front_top_cover.3mf) | 1 | <img src="CAD_design_front_top_cover_1.jpg" width="100"><img src="CAD_design_front_top_cover_2.jpg" width="100"> | Electronics protection cover |
-| **Lower left body panel** | [`design_front_bottom_cover.3mf`](design_front_bottom_cover.3mf) | 1 | <img src="CAD_design_front_bottom_cover.jpg" width="100"> | Underbody protection |
+| **Lower left body panel** | [`design_front_bottom_cover.3mf`](design_front_bottom_cover.3mf) | 1 |  | <img width="501" height="468" alt="Снимок экрана 2026-04-16 140342" src="https://github.com/user-attachments/assets/cc8de552-ae55-481c-b917-31fe9651449e" /> |
 | **Lower right body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
-| **Upper right body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
-| **Upper left body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
+| **Upper right body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  |  <img width="577" height="441" alt="Снимок экрана 2026-04-16 135838" src="https://github.com/user-attachments/assets/bdb19c56-4f39-488e-bd08-6972e738974a" />  |
+| **Upper left body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |   |  <img width="488" height="497" alt="Снимок экрана 2026-04-16 140112" src="https://github.com/user-attachments/assets/e2fa7855-ffcc-46fe-a3d2-e4ea9cf8ce7f" />  |
 | **Motor holder** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="476" height="185" alt="Снимок экрана 2026-04-16 113226" src="https://github.com/user-attachments/assets/8a2ecd13-bc6b-4f54-bf51-e770bfbf5672" /> |
-| **Raspberry upper holder** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |   | <img width="588" height="509" alt="Снимок экрана 2026-04-16 114113" src="https://github.com/user-attachments/assets/dec1ea8c-557f-4023-9b33-ce14da532fe1" /> |
-| **Raspberry lower holder** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="729" height="512" alt="Снимок экрана 2026-04-16 113956" src="https://github.com/user-attachments/assets/03888116-4e46-4cf4-973f-b3e61a05620e" /> |
-| **Swich 2 Axis** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="524" height="402" alt="Снимок экрана 2026-04-16 115809" src="https://github.com/user-attachments/assets/f7ce2ea0-e352-459b-a95d-ae8a2f837782" /> |
-| **Wheel 45 degree Rotator** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="627" height="456" alt="Снимок экрана 2026-04-16 120034" src="https://github.com/user-attachments/assets/48c41e3b-91c9-4cb3-8ca2-604e1f2ce7f6" />  |
+| **Raspberry upper holder** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |   | <img width="631" height="434" alt="Снимок экрана 2026-04-16 140928" src="https://github.com/user-attachments/assets/096a85af-7417-44d8-819f-6460d478c959" />  |
+| **Raspberry lower holder** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="729" height="512" alt="Снимок экрана 2026-04-16 113956" src="https://github.com/user-attachments/assets/c8061646-2289-4a14-b08a-15e4aa7d81bc" />  |
+| **Swich 2 Axis** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="624" height="528" alt="Снимок экрана 2026-04-16 141304" src="https://github.com/user-attachments/assets/ea85fff0-97f6-46ad-9a5f-e77436cfd11d" /> |
+| **Wheel 45 degree Rotator** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  |  <img width="627" height="456" alt="Снимок экрана 2026-04-16 120034" src="https://github.com/user-attachments/assets/dd7cd1a3-0e75-4916-a396-5912854f5a8e" /> |
 | **180 degree gear** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="729" height="441" alt="Снимок экрана 2026-04-16 113746" src="https://github.com/user-attachments/assets/2abac45d-b16f-4f36-b3f8-9a46610f2776" /> |
-
+| **Wheel holder left** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  | <img width="727" height="453" alt="Снимок экрана 2026-04-16 135411" src="https://github.com/user-attachments/assets/58fa46c3-0bb7-4486-9d35-7389be6198da" /> |
+| **Wheel holder right** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 |  |  <img width="690" height="435" alt="Снимок экрана 2026-04-16 135701" src="https://github.com/user-attachments/assets/2e77490d-b71c-4dbb-a058-054d39711b0a" />  |
