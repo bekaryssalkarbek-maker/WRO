@@ -161,13 +161,13 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 
 ## **📁Complete Manufacturing File Repository**
 #### **3D Printing Files & Assembly Specifications**
-| Component | File | Quantity | CAD/Photo Preview | Description |
-|-----------|------|----------|-------------|-------------|
-| **Main Chassis** | [`design_base.3mf`](design_base.3mf) | 1 | <img src="CAD_design_base_1.jpg" width="100"><img src="CAD_design_base_2.jpg" width="100"> | Primary structure with integrated mounting system |
-| **LEGO 4-Gear Differential** | [`design_4_gear_mini_differential.3mf`](design_4_gear_mini_differential.3mf) | 1 | <img src="CAD_design_4_gear_mini_differential_1.jpg" width="100"><img src="CAD_design_4_gear_mini_differential_2.jpg" width="100"> | A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering.|
-| **Bumper** | [`design_front_rim_bearing.3mf`](design_front_rim_bearing.3mf) | 2 | <img src="CAD_design_front_rim_bearing_1.jpg" width="100"><img src="CAD_design_front_rim_bearing_2.jpg" width="100"> | A front bumper is a structural protective component mounted on the front of the robot, designed to absorb minor impacts and protect internal systems while maintaining clearance for the steering mechanism, and it also serves as a mounting point for LED headlights. |
-| **Steering Arm** | [`design_steering_arm.3mf`](design_steering_arm.3mf) | 2 | <img src="CAD_design_steering_arm_1.jpg" width="100"><img src="CAD_design_steering_arm_2.jpg" width="100"> | Ackermann steering arms (left/right) |
-| **Steering Linkage** | [`design_steering_linkage.3mf`](design_steering_linkage.3mf) | 1 | <img src="CAD_design_steering_linkage.jpg" width="100"> | Steering connection mechanism |
+| Component  | Quantity | CAD/Photo Preview | Description |
+|-----------|----------|-------------|-------------|
+| **Main Chassis** | 1 | <img src="CAD_design_base_1.jpg" width="100"><img src="CAD_design_base_2.jpg" width="100"> | Primary structure with integrated mounting system |
+| **LEGO 4-Gear Differential**  | 1 | <img src="CAD_design_4_gear_mini_differential_1.jpg" width="100"><img src="CAD_design_4_gear_mini_differential_2.jpg" width="100"> | A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering.|
+| **Bumper** | 2 |  <img width="599" height="455" alt="Снимок экрана 2026-04-16 015051" src="https://github.com/user-attachments/assets/0fa45451-cab0-46b8-90b2-9c4fc951f80e" /> | A front bumper is a structural protective component mounted on the front of the robot, designed to absorb minor impacts and protect internal systems while maintaining clearance for the steering mechanism, and it also serves as a mounting point for LED headlights. |
+| **Back right wheel fender** | [`design_steering_arm.3mf`](design_steering_arm.3mf) | 2 | <img src="CAD_design_steering_arm_1.jpg" width="100"><img src="CAD_design_steering_arm_2.jpg" width="100"> | Ackermann steering arms (left/right) |
+| **Back left wheel fender** | [`design_steering_linkage.3mf`](design_steering_linkage.3mf) | 1 | <img src="CAD_design_steering_linkage.jpg" width="100"> | Steering connection mechanism |
 | **25T Spur Gear** | [`design_spur_25_gear.3mf`](design_spur_25_gear.3mf) | 1 | <img src="CAD_design_spur_25_gear_1.jpg" width="100"><img src="CAD_design_spur_25_gear_2.jpg" width="100"> | 25-tooth torque transmission gear |
 | **26T Spur Gear** | [`design_spur_26_gear.3mf`](design_spur_26_gear.3mf) | 1 | <img src="CAD_design_spur_26_gear_1.jpg" width="100"><img src="CAD_design_spur_26_gear_2.jpg" width="100"> | 26-tooth motor output gear |
 | **12T Bevel Gear** | [`design_bevel_12_gear.3mf`](design_bevel_12_gear.3mf) | 4 | <img src="CAD_design_bevel_12_gear_1.jpg" width="100"><img src="CAD_design_bevel_12_gear_2.jpg" width="100"> | Differential bevel gears (4 required for full assembly) |
