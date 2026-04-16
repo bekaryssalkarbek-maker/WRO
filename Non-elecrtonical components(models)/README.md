@@ -175,6 +175,7 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 | **Left holder** | [`design_back_rim_long.3mf`](design_back_rim_long.3mf) | 1 | <img src="CAD_design_back_rim_long.jpg" width="100"> | Extended for right side, connecting farther from the gear |
 | **Right holder** | [`design_back_rim_short.3mf`](design_back_rim_short.3mf) | 1 | <img src="CAD_design_back_rim_short.jpg" width="100"> | Shorter for left side, connecting closer to the gear |
 | **Lidar holder** | [`design_front_top_cover.3mf`](design_front_top_cover.3mf) | 1 | <img src="CAD_design_front_top_cover_1.jpg" width="100"><img src="CAD_design_front_top_cover_2.jpg" width="100"> | Electronics protection cover |
-| **Front Bottom Cover** | [`design_front_bottom_cover.3mf`](design_front_bottom_cover.3mf) | 1 | <img src="CAD_design_front_bottom_cover.jpg" width="100"> | Underbody protection |
-| **Button Cap** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
-
+| **Lower left body panel** | [`design_front_bottom_cover.3mf`](design_front_bottom_cover.3mf) | 1 | <img src="CAD_design_front_bottom_cover.jpg" width="100"> | Underbody protection |
+| **Lower right body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
+| **Upper right body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
+| **Upper left body panel** | [`design_button_cap.3mf`](design_button_cap.3mf) | 1 | <img src="CAD_design_button_cap_1.jpg" width="100"><img src="CAD_design_button_cap_2.jpg" width="100"> | Start button interface |
