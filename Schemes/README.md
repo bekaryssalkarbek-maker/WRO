@@ -96,7 +96,7 @@ The robot structure combines mechanical accessibility with electrical reliabilit
 
 ---
 
-### Competition-Oriented Engineering Philosophy
+### **Competition-Oriented Engineering Goal**
 
 Our manufacturing workflow follows a competition-focused engineering methodology:
 
@@ -107,3 +107,53 @@ Our manufacturing workflow follows a competition-focused engineering methodology
 - maintain full control over system architecture
 
 This approach allowed us to continuously refine both mechanical and electrical subsystems while preserving stability and repeatability across testing runs.
+
+## 🛠 Engineering Challenges & Solutions
+
+### Structural Layout Optimization
+
+During development, one of the main challenges was organizing the internal structure of the robot while maintaining compact dimensions and stable weight distribution. Since the electronics were mounted directly on the base layer, careful placement was required to avoid interference between components and ensure reliable operation.
+
+Root Cause Analysis:
+- Limited chassis space with multiple electronic modules installed on the base platform  
+- Risk of steering mechanism interference with the front bumper  
+- Need for stable placement of Raspberry Pi, LiDAR sensor, and battery for balanced weight distribution  
+- Requirement to maintain accessibility to Raspberry Pi ports for configuration and testing  
+
+Engineering Solution:
+- Electronics-first architecture implemented by mounting Raspberry Pi and core modules on the base layer before drivetrain installation  
+- Steering geometry adjusted to maintain safe rotation clearance near the front bumper  
+- Battery placement optimized to improve center-of-mass stability  
+- External access to Raspberry Pi ports preserved for easier setup and debugging  
+
+---
+
+### Mechanical Strength vs Weight Optimization
+
+Another engineering challenge involved selecting the optimal internal structure for 3D-printed components to achieve sufficient strength without increasing robot weight.
+
+Root Cause Analysis:
+- Need to reduce overall robot mass for improved movement efficiency  
+- Requirement to maintain durability of load-bearing printed components  
+- Multiple infill pattern options available (gyroid, honeycomb, linear, cubic) with different performance characteristics  
+
+Engineering Solution:
+- Comparative evaluation of several infill structures performed during prototyping  
+- Gyroid infill selected due to its balanced strength-to-weight characteristics  
+- Printing parameters optimized to ensure reliable structural performance during competition runs  
+
+---
+
+### Sensor Integration Stability
+
+Integration of LiDAR and camera systems required careful positioning to ensure reliable environmental perception without mechanical obstruction.
+
+Root Cause Analysis:
+- LiDAR required stable mounting for accurate distance measurement  
+- Camera required clear forward orientation for color detection  
+- Risk of wiring interference with moving steering components  
+
+Engineering Solution:
+- Dedicated LiDAR holder designed for stable sensor positioning  
+- Camera placement optimized for reliable color detection during navigation  
+- Organized cable routing implemented to prevent interference with steering movement
