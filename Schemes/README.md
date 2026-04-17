@@ -163,9 +163,15 @@ Engineering Solution:
 | Yellow TT Gear Motor | [Yellow DC 3V–6V Gear Motor TT_specification.pdf](https://github.com/user-attachments/files/26836848/Yellow.DC.3V.6V.Gear.Motor.TT_specification.pdf) | DC 3V–6V gear motor, no-load current 160–240 mA, speed 130–290 rpm, gear ratio 1:48 | 1 |
 | MG996R V17 Servo |  [MG996R_specification.pdf](https://github.com/user-attachments/files/26836880/MG996R_specification.pdf) | High torque digital servo, 4.8–7.2V, speed 0.17 s/60° (6V), metal gears, ~180° rotation | 1 |
 | HW-411 Buck Converter | [HW‑411 DC‑DC Buck Converter Module_specification.pdf](https://github.com/user-attachments/files/26836905/HW.411.DC.DC.Buck.Converter.Module_specification.pdf) | LM2596-based step-down converter, input 4–40V, output 1.25–35V, up to ~3A, high efficiency (~92%) | 1 |
-| USB 8MP 4K Camera |  | IMX415 sensor, 8MP resolution, 4K support, wide-angle USB camera module | 1 |
-| DRV8833 Motor Driver | ![DRV8833](https://github.com/user-attachments/assets/f2e9be73-154f-4143-b417-316e2a65708c) | Dual H-bridge driver, 2.7–10.8V, up to 1.5A per channel, PWM control, built-in protection | 1 |
-| PCA9685 Servo Driver | ![PCA9685](https://github.com/user-attachments/assets/76a841d0-7075-4609-adf3-c341e1f91f2f) | 16-channel PWM driver, 12-bit resolution, I2C interface, 3.3V/5V compatible, 24–1526 Hz frequency | 1 |
-| Raspberry Pi 5 (1GB) | ![Raspberry Pi](https://github.com/user-attachments/assets/06984689-b434-4728-9a16-8c8e57939f1b) | Quad-core 2.4 GHz Cortex-A76, 1GB RAM, dual 4K HDMI, Wi-Fi, Bluetooth, USB 3.0, GPIO 40-pin | 1 |
-| RPLIDAR | ![LiDAR](https://github.com/user-attachments/assets/1cf18d49-74b6-41e7-a085-5e194217d2f8) | 360° laser scanning LiDAR, up to ~10–12 m range, used for SLAM and navigation | 1 |
-| SS12D10 Slide Switch | ![Switch](https://github.com/user-attachments/assets/45f4b953-98b4-4426-b274-ee7f9f6c7a1c) | SPDT slide switch, 90° actuation, ~12–24V DC rated, used for power control | 1 |
+| USB 8MP 4K Camera | [USB 8MP 4K 60fps Camera.specification.pdf](https://github.com/user-attachments/files/26837379/USB.8MP.4K.60fps.Camera.specification.pdf)| IMX415 sensor, 8MP resolution, 4K support, wide-angle USB camera module | 1 |
+| DRV8833 Motor Driver | [DRV8833_specification.pdf](https://github.com/user-attachments/files/26837410/DRV8833_specification.pdf) | Dual H-bridge driver, 2.7–10.8V, up to 1.5A per channel, PWM control, built-in protection | 1 |
+| PCA9685 Servo Driver | [MG996R_specification.pdf](https://github.com/user-attachments/files/26837420/MG996R_specification.pdf) | 16-channel PWM driver, 12-bit resolution, I2C interface, 3.3V/5V compatible, 24–1526 Hz frequency | 1 |
+| Raspberry Pi 5 (1GB) | [MG996R_specification.pdf](https://github.com/user-attachments/files/26837428/MG996R_specification.pdf) | Quad-core 2.4 GHz Cortex-A76, 1GB RAM, dual 4K HDMI, Wi-Fi, Bluetooth, USB 3.0, GPIO 40-pin | 1 |
+| RPLIDAR |  | 360° laser scanning LiDAR, up to ~10–12 m range, used for SLAM and navigation | 1 |
+| SS12D10 Slide Switch | [SS12D10_90_Degree_specification.pdf](https://github.com/user-attachments/files/26837433/SS12D10_90_Degree_specification.pdf) | SPDT slide switch, 90° actuation, ~12–24V DC rated, used for power control | 1 |
+
+## **✅Engineering Validation**
+
+This comprehensive electrical documentation provides full transparency into our robot’s system architecture, component selection, and integration methodology. Each component was carefully chosen and tested to ensure reliable interaction between control, sensing, and actuation systems.
+
+The overall electrical design has been optimized for stability, maintainability, and consistent performance under WRO Future Engineers competition conditions.
