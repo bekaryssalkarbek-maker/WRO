@@ -29,6 +29,14 @@ The steering system is designed as a hybrid LEGO and 3D-printed mechanism with t
  
  - Ensure stable and predictable behavior of the robot during movement on a **3×3 meter competition field**
 
+<img width="720" height="800" alt="Differential" src="https://github.com/user-attachments/assets/fe4e534b-013c-4913-af2e-0b3cc791b225" />
+
+https://github.com/user-attachments/assets/e802eda8-740b-4b7b-a47c-ce4926abeb2c
+
+
+
+
+
 ## **🏗️Chassis and Structural Design:**
 - Provide a **strong and stable base structure** capable of supporting all electronic and mechanical components
 
