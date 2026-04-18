@@ -1,4 +1,6 @@
 # **Electronics**
+This folder contains supplementary materials for Team CyberBots’s WRO 2026 Future Engineers robot, including component images, technical documentation and development resources.
+
 ## **Movement & Power Components**
 | Components | Image | Description |
 |------------|-------|------------|
