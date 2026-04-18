@@ -97,6 +97,8 @@ The top cover of the electronics enclosure, which holds the Raspberry Pi, partia
 - **Differential manufacturing limitations due to 3D printing constraints:**
 The original plan was to manufacture a custom differential using 3D printing. However, due to printer limitations and insufficient precision for small mechanical tolerances, the printed design could not function reliably. As a result, we switched to a LEGO-based differential system and integrated its components into our drivetrain. This solution ensured smooth and reliable torque distribution while maintaining mechanical simplicity and reducing manufacturing risks.
 
+- **Front fender interference**
+During early mechanical testing, the front fenders were found to interfere with wheel rotation during steering due to the compact chassis layout. To improve steering clearance and ensure smooth turning performance, the fenders were removed from the final design. This modification significantly increased maneuverability and improved overall navigation stability during autonomous runs on the WRO field.
 
 ## **🧩Assembly Guide**
 **Step-by-Step Assembly Process:**
@@ -249,3 +251,6 @@ The original plan was to manufacture a custom differential using 3D printing. Ho
 - Operational Reliability Demonstration: Repeated autonomous driving tests performed on the 3 × 3 meter competition field confirming stable navigation, obstacle detection, and consistent steering performance.
 - Maintenance & Service Protocols: Modular chassis structure and accessible Raspberry Pi ports allow fast software updates, wiring inspection, and mechanical adjustments during testing and competition preparation.
 - Backup System Preparation: Spare mechanical components, electronic modules, and pre-tested software configurations prepared to ensure quick recovery in case of unexpected issues during competition runs.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This comprehensive mechanical documentation provides full transparency into our design process, CAD development, manufacturing methods, validation procedures, and engineering decisions. Every part of our mechanical system has been optimized for the requirements of the WRO Future Engineers 2026 category, focusing on compact design, stability, and reliable autonomous performance on the 3 × 3 meter competition field.
