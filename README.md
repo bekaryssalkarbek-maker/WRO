@@ -238,3 +238,14 @@ Implementation of accessible Raspberry Pi port openings significantly improved d
 
 <img width="1280" height="720" alt="Back photo" src="https://github.com/user-attachments/assets/56b729a5-e9f9-40a3-81f3-f8b19c6f7403" />
 <img width="1280" height="720" alt="Right side photo" src="https://github.com/user-attachments/assets/8c5fa534-79d0-4e8d-b7af-246598060df8" />
+
+
+## ⚙Mechanical Systems
+Our mechanical design philosophy centers on achieving maximum capability within minimal dimensions through innovative engineering and precision manufacturing.
+
+### Core Mechanical Specifications
+**Overall Dimensions:** 69mm (L) × 53mm (W) × 57mm (H)
+**Total Mass:** Approximately 130 grams
+**Structural Material:** 3D-printed ABS for optimal strength-to-weight ratio
+**Drive Configuration:** Rear-wheel drive with custom differential
+**Steering System:** True Ackermann geometry with precision linkage
