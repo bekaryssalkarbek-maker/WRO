@@ -66,6 +66,9 @@ Additionally, we applied a separated power distribution strategy between computa
 
 Our robot was developed using a hybrid in-house manufacturing strategy that prioritizes rapid iteration, modularity, reliability, and competition readiness. Instead of relying on fully outsourced fabrication, we implemented a flexible engineering workflow allowing continuous improvement throughout testing cycles.
 
+<img width="640" height="800" alt="Building" src="https://github.com/user-attachments/assets/e9155c3b-1dfd-432b-abef-3cf64be77bbd" />
+
+
 | Aspect | Fully Outsourced Fabrication | Hybrid In-House Manufacturing (Our Approach) | Engineering Rationale |
 |--------|-----------------------------|----------------------------------------------|----------------------|
 | Development Speed | Long fabrication turnaround | Immediate mechanical adjustments | Enables fast iteration during testing |
