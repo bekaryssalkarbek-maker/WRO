@@ -1,5 +1,5 @@
 # **Electronics**
-This folder contains supplementary materials for Team CyberBots’s WRO 2026 Future Engineers robot, including component images, technical documentation and development resources.
+This folder contains supplementary materials for Team CyberBots’s WRO 2026 Future Engineers robot, including component images, technical documentation, development resources and faced problems during development.
 
 ## **Movement & Power Components**
 | Components | Image | Description |
@@ -20,9 +20,6 @@ This folder contains supplementary materials for Team CyberBots’s WRO 2026 Fut
 |      SS12D10_90_Degree     |    ![SS12D10_90_Degree](https://github.com/user-attachments/assets/45f4b953-98b4-4426-b274-ee7f9f6c7a1c) |      SS12D10 90° Slide Switch (DIP) – SPDT slide switch, 90° actuation, DIP package, rated current ≈0.3–1 A, voltage ≈12–24 V DC, used for power/control switching in circuits.      |
 
 ## **Challenges and Problems Faced During Development**
-**Differential mechanism**
-
-At the beginning of the project, we planned to 3D-print the differential components, but achieving the required mechanical precision, durability, and smooth rotation with printed parts was difficult. Even small inaccuracies could negatively affect drivetrain performance. Because of this limitation, we decided to use a LEGO differential, which provided more reliable and stable mechanical operation.
 
 **Component specifications (especially LiDAR)**
 
