@@ -137,3 +137,16 @@ Team CyberBots includes passionate students working under the guidance of a coac
 </div>
 
 ## 🤖Our Robot
+### **Vehicle Photos**
+The following folder contain the final assembled robot from different perspectives. They demonstrate the chassis structure, steering mechanism, drivetrain layout, bumper design, LED headlights, and placement of key electronic components such as the Raspberry Pi and LiDAR sensor.
+
+### **Photos**
+#### **Front photo**
+**Focus:** Lidar, Camera, Stearing system, LED headlights
+- Lidar: Xiaomi Lidar Sensor (Used for distance measurement and obstacle detection to support accurate navigation and safe robot movement during competition runs.)
+- Camera: USB 8MP 4K 60fps Camera(Used for color detection and environment recognition to support navigation decisions during robot movement, while distance measurement is handled by the LiDAR sensor.)
+- Stearing system: Mechanism responsible for controlling the direction of the robot’s front wheels, enabling precise turning and stable navigation during movement.
+- LED headlights: Used primarily for aesthetic purposes, improving the robot’s visual appearance without affecting its functional performance during operation
+
+<img width="1280" height="720" alt="Front photo" src="https://github.com/user-attachments/assets/5ba6866e-0446-47a9-ae07-8e477fa54baa" />
+
