@@ -1,0 +1,160 @@
+import time
+import cv2
+import numpy as np
+
+try:
+    from gpiozero import Motor, Button
+    from adafruit_pca9685 import PCA9685
+    import board, busio
+    from adafruit_motor import servo as adafruit_servo
+
+    motor = Motor(forward=23, backward=24)
+
+    i2c = busio.I2C(board.SCL, board.SDA)
+    pca = PCA9685(i2c)
+    pca.frequency = 50
+
+    servo = adafruit_servo.Servo(
+        pca.channels[0],
+        min_pulse=500,
+        max_pulse=2500
+    )
+
+    button = Button(18, pull_up=True)
+    HW = True
+except:
+    HW = False
+
+SERVO_LEFT = 10
+SERVO_CENTER = 110
+
+BLACK = 60
+
+DIST_TRIGGER = 0.70
+FRONT_BLOCK = 0.80
+
+MAX_SPEED = 1.0
+
+cap = cv2.VideoCapture(0)
+cap.set(3, 240)
+cap.set(4, 180)
+
+prev_wl = 0
+prev_wr = 0
+prev_gray = None
+
+turning = False
+
+def set_servo(a):
+    a = int(max(0, min(180, a)))
+    if HW:
+        servo.angle = a
+
+def forward(speed=0.6):
+    speed = min(MAX_SPEED, speed)
+    if HW:
+        motor.forward(speed)
+
+def backward():
+    if HW:
+        motor.backward(0.35)
+
+def analyze(frame):
+    global prev_wl, prev_wr
+
+    h, w = frame.shape[:2]
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    left = gray[int(h*0.25):int(h*0.55), 0:int(w*0.3)]
+    right = gray[int(h*0.25):int(h*0.55), int(w*0.7):w]
+    center = gray[int(h*0.35):int(h*0.75), int(w*0.35):int(w*0.65)]
+
+    wl = np.mean(left < BLACK)
+    wr = np.mean(right < BLACK)
+
+    raw = np.mean(center < BLACK)
+    brightness = np.mean(center)
+
+    dist = raw
+
+    if brightness > 120:
+        dist *= 0.4
+
+    prev_wl = 0.7 * prev_wl + 0.3 * wl
+    prev_wr = 0.7 * prev_wr + 0.3 * wr
+
+    return prev_wl, prev_wr, dist, gray
+
+def smart_turn_left():
+    global prev_gray, turning
+
+    turning = True
+
+    set_servo(SERVO_LEFT)
+    forward(0.7)
+
+    start = time.time()
+    stable = 0
+
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            continue
+
+        wl, wr, dist, gray = analyze(frame)
+
+        if prev_gray is None:
+            prev_gray = gray
+            continue
+
+        change = np.mean(np.abs(gray - prev_gray))
+        prev_gray = gray
+
+        if change < 5:
+            stable += 1
+        else:
+            stable = 0
+
+        if (time.time() - start > 0.6 and stable > 5) or time.time() - start > 1.0:
+            break
+
+    set_servo(SERVO_CENTER)
+    forward(1.0)
+
+    turning = False
+
+def drive():
+    global turning
+
+    set_servo(SERVO_CENTER)
+    forward(0.9)
+
+    while True:
+        ret, frame = cap.read()
+        if not ret:
+            continue
+
+        wl, wr, dist, gray = analyze(frame)
+
+        front_wall = dist > FRONT_BLOCK
+
+        if not turning and dist > DIST_TRIGGER and not front_wall:
+            smart_turn_left()
+            continue
+
+        if abs(wl - wr) < 0.15:
+            speed = 1.0
+        else:
+            speed = 0.7
+
+        error = wl - wr
+        angle = SERVO_CENTER + error * 55
+
+        set_servo(angle)
+        forward(speed)
+
+        time.sleep(0.02)
+
+if name == "__main__":
+    input("ENTER START")
+    drive()
