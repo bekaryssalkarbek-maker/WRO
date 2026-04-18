@@ -150,3 +150,28 @@ The following folder contain the final assembled robot from different perspectiv
 
 <img width="1280" height="720" alt="Front photo" src="https://github.com/user-attachments/assets/5ba6866e-0446-47a9-ae07-8e477fa54baa" />
 
+#### Core Processing Architecture
+- Primary Computing Unit:Raspberry Pi 5 (1GB) single-board computer with Quad-core 2.4 GHz Cortex-A76 CPU, VideoCore VII GPU, Wi-Fi 802.11ac, Bluetooth 5.0, and 40-pin GPIO interface. Responsible for vision processing, LiDAR data handling, navigation logic, and overall system coordination.
+- PWM Control Expansion:PCA9685 16-Channel PWM Driver (I2C) with 12-bit resolution (4096 steps) and adjustable PWM frequency (24–1526 Hz), used for stable actuator signal generation and precise control of steering systems.
+- Distributed Control Strategy:Separation between high-level navigation processing on Raspberry Pi 5 and low-level motor actuation through DRV8833 dual H-bridge motor driver ensures reliable real-time control performance.
+
+#### Perception System
+- Front Visual Navigation:USB 8MP Camera with IMX415 sensor supporting 4K resolution and wide-angle field of view, used for track detection, color recognition, and environmental interpretation.
+- Environmental Mapping:RPLIDAR 360° laser scanner with approximately 10–12 meters measurement range, enabling obstacle detection and spatial awareness during autonomous navigation.
+- Sensor Fusion Logic:Combined processing of camera-based visual perception and LiDAR distance measurements improves navigation reliability under varying competition conditions.
+
+#### Propulsion and Control
+- Drive System:TT DC Gear Motor (3–6 V, gear ratio 1:48) with 130–290 RPM no-load speed and 160–240 mA no-load current provides stable drivetrain motion.
+- Steering Mechanism:MG996R V17 Digital Servo Motor with metal gears, operating voltage 4.8–7.2 V, speed 0.17 s/60°, and approximately 180° rotation range enables precise steering control.
+- Motor Control Interface:DRV8833 Dual H-Bridge Motor Driver supporting 2.7–10.8 V operating voltage and up to 1.5 A per channel output current with PWM speed control capability.
+- Power Management Architecture:Custom 2S LiPo Battery (7.4 V, 3000 mAh) combined with HW-411 LM2596 DC-DC Buck Converter (input 4–40 V, output 1.25–35 V adjustable, up to 3 A) ensures stable voltage regulation across all subsystems.
+- Electrical Safety Control:SS12D10 SPDT Slide Switch (90°) used as the primary system power isolation switch for safe startup and shutdown operations.
+
+### Potential Future Improvements (Overall Vehicle)
+
+- Improve vehicle speed by integrating a more powerful drivetrain motor with higher torque and better acceleration characteristics while maintaining the current robot dimensions. This upgrade will increase responsiveness and allow faster navigation on the competition track.
+- Enhance drivetrain efficiency by optimizing gear ratio selection and reducing mechanical friction within the transmission system. These improvements will support smoother motion and more stable high-speed performance.
+- Further improve power distribution stability to support higher peak acceleration without voltage drops by refining voltage regulation stages and optimizing current flow between computing, sensing, and actuation subsystems.
+
+## 🔧 Electronic Systems
+
