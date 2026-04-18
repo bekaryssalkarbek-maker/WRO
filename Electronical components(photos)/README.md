@@ -1,5 +1,5 @@
 # **Electronics**
-This folder contains supplementary materials for Team CyberBots’s WRO 2026 Future Engineers robot, including component images, technical documentation, development resources and faced problems during development.
+This folder contains supplementary materials for Team CyberBots’s WRO 2026 Future Engineers robot, including component images, technical documentation and faced problems during development.
 
 ## **Movement & Power Components**
 | Components | Image | Description |
@@ -34,3 +34,5 @@ Initially, the Raspberry Pi was installed at the rear part of the robot, but thi
 Designing the electronic architecture and wiring layout was also challenging. Several modules had to be connected to the Raspberry Pi, and the limited number of available GPIO pins required careful planning. We studied the pin configuration in detail to ensure correct communication between all components and stable system operation.
 
 ## **Notes**
+- All component specifications are sourced from official manufacturer datasheets.
+- Development photos showcase our hands-on manufacturing and testing processes.
