@@ -234,3 +234,4 @@ Our robot architecture was intentionally designed to support iterative developme
 This strategy ensured that the robot remained adaptable throughout the engineering cycle while maintaining competition reliability.
 
 ## Development Convenience Features
+Implementation of accessible Raspberry Pi port openings significantly improved development workflow, enabling fast code uploading, debugging, and continuous testing without disassembling the robot.
