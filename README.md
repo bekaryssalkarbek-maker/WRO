@@ -253,3 +253,4 @@ Our mechanical design philosophy centers on achieving maximum capability within 
 <img width="1280" height="720" alt="General photo" src="https://github.com/user-attachments/assets/a38e96e7-8ce1-42a4-8b5b-656b6ea76058" />
 <img width="990" height="484" alt="CAD general photo" src="https://github.com/user-attachments/assets/5e7d8a4d-4c27-4bf3-9d51-a78bec260d9f" />
 
+## Manufacturing
