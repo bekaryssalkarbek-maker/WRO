@@ -169,7 +169,7 @@ Engineering Solution:
 | Raspberry Pi 5 (1GB) | [MG996R_specification.pdf](https://github.com/user-attachments/files/26837428/MG996R_specification.pdf) | Quad-core 2.4 GHz Cortex-A76, 1GB RAM, dual 4K HDMI, Wi-Fi, Bluetooth, USB 3.0, GPIO 40-pin | 1 |
 | RPLIDAR |  | 360° laser scanning LiDAR, up to ~10–12 m range, used for SLAM and navigation | 1 |
 | SS12D10 Slide Switch | [SS12D10_90_Degree_specification.pdf](https://github.com/user-attachments/files/26837433/SS12D10_90_Degree_specification.pdf) | SPDT slide switch, 90° actuation, ~12–24V DC rated, used for power control | 1 |
-
+Component Sourcing Rules: Direct product links and pricing information are intentionally not included to ensure long-term accessibility and avoid outdated references. All listed components can be easily found online using their names and images, while their authenticity can be confirmed through the datasheets provided in this repository.
 ## **✅Engineering Validation**
 
 This comprehensive electrical documentation provides full transparency into our robot’s system architecture, component selection, and integration methodology. Each component was carefully chosen and tested to ensure reliable interaction between control, sensing, and actuation systems.
