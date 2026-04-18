@@ -8,50 +8,72 @@ During development, each subsystem — including drivetrain, steering mechanism,
 This repository documents our full engineering workflow, including system architecture, electrical schematics, component selection rationale, software logic structure, testing procedures, and validation results prepared for the WRO 2026 Future Engineers competition.
 
 ## 📚Table of Contents
+## 📁 Project Structure
 
-
-
+- 💾 [Code](./Code/)
+- 🔌 [Electronical Components (CAD)](./Electronical%20Components%20(CAD)/)
+- 🔌 [Electronical Components (Photos)](./Electronical%20Components%20(Photos)/)
+- 📚 [Engineer Journal](./Engineer%20Journal/)
+- ⚙ [Non-Electronical Components](./Non-Electronical%20Components/)
+- 🔌 [Schemes](./Schemes/)
+- 👥 [Team](./Team/)
+- 🚗 [Vehicle Photos](./Vehicle%20Photos/)
+- 📁 [SRC](./SRC/)
+- 
 ## 📂Complete Documentation Structure
 ### Each folder contains comprehensive README documentation with specialized technical content
 | 📁 Folder | 🎯 Technical Content | 📖 Detailed Documentation |
 |----------|--------------------|---------------------------|
-| 💾 Code | Software Systems |
-| | • Autonomous navigation algorithms |
-| | • Sensor integration (camera, LiDAR) |
-| | • Control logic and decision-making |
+|  💾 Code | Software System |
+|  | • Autonomous navigation algorithms |
+| | • Camera color detection logic |
+| | • LiDAR-based distance processing |
+| | • Motor and steering control systems |
 | | 🔗 Explore Code Documentation |
-| 🔌 Electronical Components (CAD) | Electrical Design |
+| 🔌 Electronical Components (CAD) | Electrical Design Models |
 | | • CAD models of electronic layout |
-| | • Component placement planning |
+| | • Component placement and integration |
 | | 🔗 Explore Electrical CAD Documentation |
-| 🔌 Electronical Components (Photos) | Hardware Documentation |
-| | • Real electronic component assembly |
-| | • Wiring and physical integration |
+| 🔌 Electronical Components (Photos) | Electronics Implementation |
+| | • Real photos of all electronic components |
+| | • Individual component descriptions |
+| | • Engineering problems and solutions |
 | | 🔗 Explore Electronics Photos Documentation |
-| 📚 Engineer Journal | Engineering Documentation |
-| | • Design process explanation |
-| | • Iterative development stages |
-| | • Problem solving & optimization |
+| 📚 Engineer Journal | Engineering Development Process |
+| | • Design iterations and improvements |
+| | • Problem solving and optimization |
+| | • System-level engineering decisions |
 | | 🔗 Explore Engineering Journal |
-| ⚙ Non-Electronic Components (3D Models) | Mechanical Engineering |
-| | • 3D printed parts (chassis, mounts, holders) |
-| | • Structural design & optimization |
-| | 🔗 Explore 3D Models Documentation |
-| 🔌 Schemes | Electrical Schematics |
-| | • Wiring diagrams |
-| | • Power distribution system |
-| | • System integration schematics |
+| ⚙ Non-Electronical Components | Mechanical Design |
+| | • Full robot CAD model |
+| | • Differential system design |
+| | • Steering mechanism design |
+| | • Chassis and structural architecture |
+| | • 3D printing process and assembly stages |
+| | • Design challenges and solutions |
+| | • Individual CAD explanations for parts |
+| | 🔗 Explore Mechanical Design Documentation |
+| 🔌 Schemes | Electrical System Documentation |
+| | • Electronics overview (photos + specs + quantity) |
+| | • Full wiring schematic and system logic |
+| | • Power distribution and current flow strategy |
+| | • Assembly process of electrical system |
+| | • Engineering problems and solutions |
 | | 🔗 Explore Schemes Documentation |
-| 👥 Team Photos | Team Documentation |
-| | • Team members |
-| | • Work process |
-| | • Development journey |
-| | 🔗 Explore Team Photos |
+| 👥 Team | Team Information |
+| | • Team members and roles |
+| | • Coach/mentor information |
+| | • Task distribution (mechanical, electronics, software, testing) |
+| | 🔗 Explore Team Documentation |
 | 🚗 Vehicle Photos | Robot Documentation |
-| | • Final robot views (multi-angle) |
-| | • System integration overview |
-| | 🔗 Explore Vehicle Photos |
-| 📁 SRC | Source Resources |
-| | • Additional files |
-| | • Supporting materials |
-| | 🔗 Explore SRC Folder |
+| | • CAD renders of robot |
+| | • Real robot photos |
+| | • Multi-angle system overview |
+| | 🔗 Explore Vehicle Photos Documentation |
+| 📁 SRC | Testing & Resources |
+| | • Autonomous navigation tests |
+| | • Steering and drivetrain performance tests |
+| | • Sensor calibration and validation |
+| | • Competition condition testing |
+| | • Debugging and additional resources |
+| | 🔗 Explore SRC Documentation |
