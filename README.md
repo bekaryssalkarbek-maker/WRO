@@ -235,3 +235,5 @@ This strategy ensured that the robot remained adaptable throughout the engineeri
 
 ## Development Convenience Features
 Implementation of accessible Raspberry Pi port openings significantly improved development workflow, enabling fast code uploading, debugging, and continuous testing without disassembling the robot.
+<img width="1280" height="720" alt="Back photo" src="https://github.com/user-attachments/assets/56b729a5-e9f9-40a3-81f3-f8b19c6f7403" />
+<img width="1280" height="720" alt="Right side photo" src="https://github.com/user-attachments/assets/8c5fa534-79d0-4e8d-b7af-246598060df8" />
