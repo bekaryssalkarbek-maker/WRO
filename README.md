@@ -213,3 +213,24 @@ To improve operational safety and prevent unintended battery discharge during in
 Additionally, we applied a separated power distribution strategy between computational modules and actuator subsystems. This approach reduces electrical noise from motors, prevents voltage drops during peak load conditions, and improves overall stability of perception and navigation performance during autonomous operation.
 
 This structured power architecture significantly increases electrical reliability, protects sensitive components, and ensures consistent system behavior under dynamic competition conditions.
+
+### Engineering Solution:
+
+- **Structural Layout Optimization:** Internal components reorganized using electronics-first placement to avoid interference and improve weight distribution.
+
+- **Mechanical Strength vs Weight Optimization:** Gyroid infill selected after testing multiple patterns to achieve best balance of strength and low weight.
+
+- **Sensor Integration Stability:** Dedicated mounts and cable routing implemented for stable LiDAR and camera operation without mechanical interference.
+
+### Modular Manufacturing Strategy Advantages
+Our robot architecture was intentionally designed to support iterative development and serviceability during competition preparation:
+
+- Rapid mechanical adjustments without external fabrication delays
+- Independent subsystem upgrades without full system redesign
+- Fast component replacement during testing and competition
+- Continuous weight distribution optimization
+- Improved robustness through direct assembly verification
+  
+This strategy ensured that the robot remained adaptable throughout the engineering cycle while maintaining competition reliability.
+
+## Development Convenience Features
