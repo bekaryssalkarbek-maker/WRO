@@ -18,6 +18,8 @@ The purpose of this schematic is to clearly illustrate the electrical connection
 |        RPLIDAR    |   ![RPLIDAR](https://github.com/user-attachments/assets/1cf18d49-74b6-41e7-a085-5e194217d2f8)  |      Xiaomi LiDAR Sensor (e.g., TOF / 360°)* – Long‑range distance measurement up to ~10–12 m, 360° scanning, high‑precision time‑of‑flight (ToF) / laser ranging, fast sampling, low‑power, interface UART / I2C / SPI (зависит от модели), used for SLAM and robot navigation.    |  1  | 
 |      SS12D10_90_Degree     |    ![SS12D10_90_Degree](https://github.com/user-attachments/assets/45f4b953-98b4-4426-b274-ee7f9f6c7a1c) |      SS12D10 90° Slide Switch (DIP) – SPDT slide switch, 90° actuation, DIP package, rated current ≈0.3–1 A, voltage ≈12–24 V DC, used for power/control switching in circuits. |   1  | 
 
+
+
 **Component Sourcing Rules:** Direct product links and pricing information are intentionally not included to ensure long-term accessibility and avoid outdated references. All listed components can be easily found online using their names and images, while their authenticity can be confirmed through the datasheets provided in this repository.
 
 ## **⚡️Complete Wiring System**
@@ -50,6 +52,14 @@ The purpose of this schematic is to clearly illustrate the electrical connection
 | B (Servo) | DC-DC Converter #2 | MG996R (1 servo) | 5–6V | 0.1–0.5A | up to 2.5A |
 | C (Motors) | Battery 7.4V Li-Po | DRV8833 + DC motors | 7.4V | 1–2A | 4–6A |
 | Common Bus | Battery | Shared system ground (GND) | 0V | — | — |
+
+**Power Management Innovation**
+
+During system integration, we identified the necessity of implementing a stable and efficient power distribution architecture capable of supporting both high-current drivetrain components and sensitive computing modules operating simultaneously.
+
+Our robot uses a 7.4V (2S) LiPo battery as the primary energy source. To ensure reliable voltage regulation for onboard electronics, we implemented a dedicated power management structure based on the HW-411 (LM2596) DC-DC buck converter module, providing stable regulated voltage for critical subsystems including the Raspberry Pi 5, sensors, and control electronics.
+
+Additionally, we applied a separated power distribution strategy between computational modules and actuator subsystems. This approach reduces electrical noise from motors, prevents voltage drops during peak load conditions, and improves overall stability of perception and navigation performance during autonomous operation.
 
 ## **🎯Strategic Engineering Choice Analysis:**
 ### Strategic Manufacturing Approach Analysis
