@@ -29,7 +29,7 @@ This repository documents our full engineering workflow, including system archit
 | | • Camera color detection logic |
 | | • LiDAR-based distance processing |
 | | • Motor and steering control systems |
-| | 🔗 Explore Code Documentation |
+|  |
 | 🔌 Electronical Components (CAD) | Electrical Design Models |
 | | • CAD models of electronic layout |
 | | • Component placement and integration |
@@ -77,3 +77,63 @@ This repository documents our full engineering workflow, including system archit
 | | • Competition condition testing |
 | | • Debugging and additional resources |
 | | 🔗 Explore SRC Documentation |
+
+## 👥The Team
+Team CyberBots includes passionate students working under the guidance of a coach. This is our first time competing in the WRO Future Engineers category (2026), where each member contributes unique skills to the project, including mechanical design, electronics, programming, and computer vision development.
+
+
+
+
+
+
+
+
+
+## 🎯Challenge Overview
+### **Two distinct autonomous navigation challenges testing vehicle intelligence and precision**
+
+</div>
+
+### **🚀 Open Challenge**
+<div align="center">
+
+**Objective**: Complete three autonomous laps on dynamically configured tracks
+
+| Aspect | Challenge | Our Solution |
+|--------|-----------|--------------|
+| **Track Variability** | Random internal wall placements | Adaptive path planning algorithms |
+| **Navigation** | Unknown track layouts each round | Robust wall-following with corner detection |
+| **Performance** | Consistent lap times across variations | Optimized PID control and sensor fusion |
+| **Precision** | Maintain course in narrow lanes | High-accuracy steering and speed control |
+
+</div>
+
+### **🚧 Obstacle Challenge**
+<div align="center">
+
+**Objective**: Navigate three laps with traffic sign compliance and precision parking
+
+| Challenge Element | Requirement | Our Implementation |
+|-------------------|-------------|-------------------|
+| **Traffic Signs** | Red → Right bias<br>Green → Left bias | Real-time color detection with LAB colorspace |
+| **Obstacle Avoidance** | Dynamic path adjustment | Smooth following at consistent distances |
+| **Parking Maneuver** | Parallel parking after lap completion | Multi-stage parking with sensor validation |
+| **Navigation** | Shortest path optimization | Efficient routing around obstacle combinations |
+</div>
+
+## 📊 **WRO 2025 Engineering Documentation Scoring (30 points total)**
+
+| Scoring Area | Maximum Points | Our Documentation Coverage |
+|--------------|----------------|---------------------------|
+| **1. Mobility Management** | 4 points | Complete mechanical design, motor selection, steering system, assembly instructions |
+| **2. Power & Sense Management** | 4 points | Power systems, sensor integration, wiring diagrams, component specifications |
+| **3. Obstacle Management** | 4 points | Navigation algorithms, parking strategies, source code with detailed comments |
+| **4. Pictures – Team and Vehicle** | 4 points | Multi-angle vehicle photos, team photos, component labeling |
+| **5. Performance Videos** | 4 points | Complete challenge demonstrations with commentary and analysis |
+| **6. GitHub Utilization** | 4 points | Version control, structured documentation, regular commits |
+| **7. Engineering Factor** | 4 points | Custom design and manufacturing throughout the vehicle |
+| **8. Overall Judge Impression** | 2 points | Clear communication enabling easy replication |
+| **Total Documentation Score** | **30 points** | **(≈25% of total competition score)** |
+</div>
+
+## 🤖Our Robot
