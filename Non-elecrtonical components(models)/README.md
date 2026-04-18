@@ -33,6 +33,7 @@ The steering system is designed as a hybrid LEGO and 3D-printed mechanism with t
 
 https://github.com/user-attachments/assets/e802eda8-740b-4b7b-a47c-ce4926abeb2c
 
+<img width="495" height="564" alt="Снимок экрана 2026-04-19 041454" src="https://github.com/user-attachments/assets/ed89cba6-75d6-42c0-8a24-96551a3d9dae" />
 
 
 
@@ -53,6 +54,9 @@ https://github.com/user-attachments/assets/e802eda8-740b-4b7b-a47c-ce4926abeb2c
  - Integrate **LEGO structural elements together with custom 3D-printed parts** for precise mounting and compact component placement
  
  - Ensure stable positioning of key systems such as the **differential, steering system, motors, and control electronics**
+
+<img width="375" height="280" alt="Снимок экрана 2026-04-19 041640" src="https://github.com/user-attachments/assets/3efeac46-7361-405e-a71e-c5b23a6135c0" />
+
 
  ## **🏭Manufacturing Process:**
  We utilized a locally available 3D printer within our workspace to manufacture custom-designed components. This allowed us to rapidly prototype parts, test different design iterations, and refine mechanical performance efficiently during the development process.
