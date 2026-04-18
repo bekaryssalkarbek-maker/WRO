@@ -22,8 +22,8 @@ This repository documents our full engineering workflow, including system archit
 
 ## 📂Complete Documentation Structure
 ### Each folder contains comprehensive README documentation with specialized technical content
-| 📁 Folder | 🎯 Technical Content | 📖 Detailed Documentation |
-|----------|--------------------|---------------------------|
+| 📁 Folder | 🎯 Technical Content | 
+|----------|--------------------|
 |  💾 Code | Software System |
 |  | • Autonomous navigation algorithms |
 | | • Camera color detection logic |
@@ -33,17 +33,17 @@ This repository documents our full engineering workflow, including system archit
 | 🔌 Electronical Components (CAD) | Electrical Design Models |
 | | • CAD models of electronic layout |
 | | • Component placement and integration |
-| | 🔗 Explore Electrical CAD Documentation |
+| |  |
 | 🔌 Electronical Components (Photos) | Electronics Implementation |
 | | • Real photos of all electronic components |
 | | • Individual component descriptions |
 | | • Engineering problems and solutions |
-| | 🔗 Explore Electronics Photos Documentation |
+| |  |
 | 📚 Engineer Journal | Engineering Development Process |
 | | • Design iterations and improvements |
 | | • Problem solving and optimization |
 | | • System-level engineering decisions |
-| | 🔗 Explore Engineering Journal |
+| |  |
 | ⚙ Non-Electronical Components | Mechanical Design |
 | | • Full robot CAD model |
 | | • Differential system design |
@@ -52,31 +52,31 @@ This repository documents our full engineering workflow, including system archit
 | | • 3D printing process and assembly stages |
 | | • Design challenges and solutions |
 | | • Individual CAD explanations for parts |
-| | 🔗 Explore Mechanical Design Documentation |
+| |  |
 | 🔌 Schemes | Electrical System Documentation |
 | | • Electronics overview (photos + specs + quantity) |
 | | • Full wiring schematic and system logic |
 | | • Power distribution and current flow strategy |
 | | • Assembly process of electrical system |
 | | • Engineering problems and solutions |
-| | 🔗 Explore Schemes Documentation |
+| |  |
 | 👥 Team | Team Information |
 | | • Team members and roles |
 | | • Coach/mentor information |
 | | • Task distribution (mechanical, electronics, software, testing) |
-| | 🔗 Explore Team Documentation |
+| |  |
 | 🚗 Vehicle Photos | Robot Documentation |
 | | • CAD renders of robot |
 | | • Real robot photos |
 | | • Multi-angle system overview |
-| | 🔗 Explore Vehicle Photos Documentation |
+| |  |
 | 📁 SRC | Testing & Resources |
 | | • Autonomous navigation tests |
 | | • Steering and drivetrain performance tests |
 | | • Sensor calibration and validation |
 | | • Competition condition testing |
 | | • Debugging and additional resources |
-| | 🔗 Explore SRC Documentation |
+| |  |
 
 ## 👥The Team
 Team CyberBots includes passionate students working under the guidance of a coach. This is our first time competing in the WRO Future Engineers category (2026), where each member contributes unique skills to the project, including mechanical design, electronics, programming, and computer vision development.
@@ -264,4 +264,31 @@ Our mechanical design philosophy centers on achieving maximum capability within 
 <img width="1280" height="720" alt="General photo" src="https://github.com/user-attachments/assets/a38e96e7-8ce1-42a4-8b5b-656b6ea76058" />
 <img width="990" height="484" alt="CAD general photo" src="https://github.com/user-attachments/assets/5e7d8a4d-4c27-4bf3-9d51-a78bec260d9f" />
 
-## Manufacturing
+## Manufacturing File Repository
+
+| Component  | Quantity | Description | CAD Photo Preview |
+|-----------|-----------|-------------|-------------------|
+| **Main Chassis** | 1 | Primary structure with integrated mounting system |  |
+| **LEGO 4-Gear Differential**  | 1 |A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering. |  |
+| **Bumper** | 1 |  A front bumper is a structural protective component mounted on the front of the robot, designed to absorb minor impacts and protect internal systems while maintaining clearance for the steering mechanism, and it also serves as a mounting point for LED headlights | <img width="556" height="422" alt="Снимок экрана 2026-04-16 015010" src="https://github.com/user-attachments/assets/1a684ae9-2750-41ef-a5d2-e526f7f97032" /> |
+| **Back right wheel fender** |  1 |  Protective wheel panel providing structural protection and body support. | <img width="475" height="440" alt="Снимок экрана 2026-04-16 142714" src="https://github.com/user-attachments/assets/e4ca66f8-c5de-4041-859c-59e8e564247f" />  |
+| **Back left wheel fender** | 1 | Protective wheel panel providing structural protection and body support. | <img width="475" height="440" alt="Снимок экрана 2026-04-16 142714" src="https://github.com/user-attachments/assets/bee1b1b7-691c-4c60-868c-511f0173ac1f" /> |
+| **Front left wheel fender** | 1 | Protective wheel panel providing structural protection and necessary clearance for steering rotation. | <img width="581" height="529" alt="Снимок экрана 2026-04-16 142253" src="https://github.com/user-attachments/assets/fde47f0d-28a5-4b79-a01f-baea723fa5ec" /> | 
+| **Front right wheel fender** | 1 | Protective wheel panel providing structural protection and necessary clearance for steering rotation. | <img width="581" height="529" alt="Снимок экрана 2026-04-16 142253" src="https://github.com/user-attachments/assets/7eec2aef-ac16-4f15-affb-9eb86770cd17" />  | 
+| **Disk for wheel** | 4 | Custom wheel disk ensuring reliable connection between the wheel and drivetrain. | <img width="505" height="339" alt="Снимок экрана 2026-04-16 120709" src="https://github.com/user-attachments/assets/e118a329-f708-470c-b00f-0f14c5747433" />  |
+| **Servo Gear** | 1 |  Transmission gear transferring rotation from the servo motor to the steering mechanism. | <img width="442" height="446" alt="Снимок экрана 2026-04-16 113454" src="https://github.com/user-attachments/assets/c9bd2d08-e307-4eea-8f5d-15806db6785b" />  | 
+| **Left holder** | 1 | Structural holder designed to simplify safe robot handling and transportation. | <img width="591" height="445" alt="Снимок экрана 2026-04-16 143249" src="https://github.com/user-attachments/assets/5e96fae0-6a19-4f36-b9bd-c2e22ead2b49" /> |
+| **Right holder** | 1 | Structural holder designed to simplify safe robot handling and transportation. | <img width="591" height="445" alt="Снимок экрана 2026-04-16 143249" src="https://github.com/user-attachments/assets/e4a8cada-1572-4309-9d1b-f13473132678" />  | 
+| **Lidar holder** | 1 | Mount designed for stable LiDAR sensor installation. | <img width="631" height="434" alt="Снимок экрана 2026-04-16 140928" src="https://github.com/user-attachments/assets/87ab3294-97bf-4869-b7da-bec91e4faf91" /> | 
+| **Lower left body panel** | 1 | Body panel used to reinforce chassis structure. |  <img width="501" height="468" alt="Снимок экрана 2026-04-16 140342" src="https://github.com/user-attachments/assets/cc8de552-ae55-481c-b917-31fe9651449e" /> | 
+| **Lower right body panel** |  1 | Body panel used to reinforce chassis structure. | <img width="599" height="424" alt="Снимок экрана 2026-04-16 145644" src="https://github.com/user-attachments/assets/19c2fa43-92ba-465b-a933-0674d3239d6a" />  | 
+| **Upper right body panel** |  1 | Body panel used to protect internal robot components. | <img width="577" height="441" alt="Снимок экрана 2026-04-16 135838" src="https://github.com/user-attachments/assets/bdb19c56-4f39-488e-bd08-6972e738974a" /> |  
+| **Upper left body panel** |  1 | Body panel used to protect internal robot components. | <img width="488" height="497" alt="Снимок экрана 2026-04-16 140112" src="https://github.com/user-attachments/assets/e2fa7855-ffcc-46fe-a3d2-e4ea9cf8ce7f" />  |  
+| **Motor holder** |  1 | Mount designed for secure drivetrain motor fixation. | <img width="476" height="185" alt="Снимок экрана 2026-04-16 113226" src="https://github.com/user-attachments/assets/8a2ecd13-bc6b-4f54-bf51-e770bfbf5672" /> | 
+| **Raspberry upper holder** |  1 | Mount used to secure the Raspberry Pi board. |  <img width="631" height="434" alt="Снимок экрана 2026-04-16 140928" src="https://github.com/user-attachments/assets/096a85af-7417-44d8-819f-6460d478c959" /> | 
+| **Raspberry lower holder** |  1 |  Mount used to secure the Raspberry Pi board. | <img width="729" height="512" alt="Снимок экрана 2026-04-16 113956" src="https://github.com/user-attachments/assets/c8061646-2289-4a14-b08a-15e4aa7d81bc" /> |
+| **Swich 2 Axis** |  1 | Mount designed for installation of the 2-axis control switch. | <img width="624" height="528" alt="Снимок экрана 2026-04-16 141304" src="https://github.com/user-attachments/assets/ea85fff0-97f6-46ad-9a5f-e77436cfd11d" /> | 
+| **Wheel 45 degree Rotator** |  1 | Steering mechanism component enabling wheel rotation up to 45°. |  <img width="627" height="456" alt="Снимок экрана 2026-04-16 120034" src="https://github.com/user-attachments/assets/dd7cd1a3-0e75-4916-a396-5912854f5a8e" /> |  
+| **180 degree gea** |  1 | Gear used for rotation of front wheels within the steering mechanism. | <img width="729" height="441" alt="Снимок экрана 2026-04-16 113746" src="https://github.com/user-attachments/assets/2abac45d-b16f-4f36-b3f8-9a46610f2776" /> |
+| **Wheel holder left** | 1 | Mount designed to secure the wheel and maintain correct alignment. | <img width="727" height="453" alt="Снимок экрана 2026-04-16 135411" src="https://github.com/user-attachments/assets/58fa46c3-0bb7-4486-9d35-7389be6198da" /> | 
+| **Lego wheels** | 4 |  Standard LEGO wheel used for robot movement, providing traction, stability, and reliable motion on the competition field. | <img width="385" height="325" alt="Снимок экрана 2026-04-16 165149" src="https://github.com/user-attachments/assets/88dc3f68-e868-42c3-83d1-f9f13da57646" /> |  
