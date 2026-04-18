@@ -202,3 +202,14 @@ The following folder contain the final assembled robot from different perspectiv
 1) Complete hand-drawn and digitally traced wiring schematic showing full electrical connections
 2) Physical implementation demonstrating socket-based construction of the schematic
 
+## Power Management Innovation
+
+During system integration, we identified the necessity of implementing a stable and efficient power distribution architecture capable of supporting both high-current drivetrain components and sensitive computing modules operating simultaneously.
+
+Our robot uses a 7.4V (2S) LiPo battery as the primary energy source. To ensure reliable voltage regulation for onboard electronics, we implemented a dedicated power management structure based on the HW-411 (LM2596) DC-DC buck converter module, providing stable regulated voltage for critical subsystems including the Raspberry Pi 5, sensors, and control electronics.
+
+To improve operational safety and prevent unintended battery discharge during inactive states, an SS12D10 SPDT slide switch was integrated as the primary hardware-level power isolation mechanism controlling system startup and shutdown.
+
+Additionally, we applied a separated power distribution strategy between computational modules and actuator subsystems. This approach reduces electrical noise from motors, prevents voltage drops during peak load conditions, and improves overall stability of perception and navigation performance during autonomous operation.
+
+This structured power architecture significantly increases electrical reliability, protects sensitive components, and ensures consistent system behavior under dynamic competition conditions.
