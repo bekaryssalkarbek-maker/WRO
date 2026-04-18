@@ -10,15 +10,15 @@ This repository documents our full engineering workflow, including system archit
 ## 📚Table of Contents
 ## 📁 Project Structure
 
-- 💾 [Code](./Code/)
-- 🔌 [Electronical Components (CAD)](./Electronical%20Components%20(CAD)/)
-- 🔌 [Electronical Components(photos)](./Electronical%20Components%20(photos)/)
-- 📚 [Engineer Journal](./Engineer%20Journal/)
-- ⚙ [Non-Electronical Components](./Non-Electronical%20Components/)
-- 🔌 [Schemes](./Schemes/)
-- 👥 [Team](./Team/)
-- 🚗 [Vehicle Photos](./Vehicle%20Photos/)
-- 📁 [SRC](./SRC/)
+- 💾 Code
+- 🔌 Electronical Components (CAD)
+- 🔌 Electronical Components(photos)
+- 📚 Engineer Journal
+- ⚙  Non-Electronical Components
+- 🔌 Schemes
+- 👥 Team
+- 🚗 Vehicle Photos
+- 📁 SRC
 - 
 ## 📂Complete Documentation Structure
 ### Each folder contains comprehensive README documentation with specialized technical content
