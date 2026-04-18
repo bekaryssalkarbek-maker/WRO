@@ -30,3 +30,12 @@ The following folder contain the final assembled robot from different perspectiv
 <img width="1280" height="720" alt="Right side photo" src="https://github.com/user-attachments/assets/11c6e62d-23ce-4d6b-91d0-c76d5f0e31f5" />
 
 ### **Botton photo**
+
+**Focus:** 4-gear differential, steering system, motor holder, LEGO wheels
+
+4-Gear Differential: LEGO 4-gear differential system used to distribute torque efficiently between the drive wheels, improving traction and enabling smoother turning during autonomous movement 
+Steering System: Front steering mechanism based on a servo-controlled linkage structure, providing precise wheel angle control for accurate navigation on the WRO field 
+Motor Holder: Custom motor mounting structure designed to securely fix the drivetrain motor to the chassis while maintaining alignment with the transmission system 
+LEGO Wheels (4 units): Four LEGO wheels integrated into the drivetrain and steering system to ensure stable movement, reliable traction, and consistent performance during competition runs 
+
+<img width="960" height="1280" alt="Botton photo" src="https://github.com/user-attachments/assets/7e1ff51e-dd91-42c2-a85e-04f9c6bfa1ab" />
