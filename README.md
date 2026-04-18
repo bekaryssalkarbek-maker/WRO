@@ -1,4 +1,4 @@
-# 🚀 WRO 2025 Future Engineers – CyberBots
+<img width="990" height="484" alt="CAD general photo" src="https://github.com/user-attachments/assets/93cbb906-74fd-41d8-90bd-a01814547615" /># 🚀 WRO 2025 Future Engineers – CyberBots
 Welcome to the GitHub repository of Team CyberBots, participating in the World Robot Olympiad™ (WRO®) Future Engineers 2026 category. Our team designed and developed a compact autonomous vehicle inspired by real-world automotive engineering principles, with a design approach that visually reflects concepts similar to real vehicles and Mars rover-style exploration systems.
 
 Our main objective was to build a robot that not only successfully completes the WRO challenge but also incorporates a realistic automotive-inspired design language. The external structure was intentionally designed to resemble a real vehicle in terms of proportions and layout, while maintaining full compliance with WRO constraints. Special attention was given to mechanical reliability, precise steering geometry, stable power architecture, sensor-based navigation, and modular electronic integration.
@@ -249,3 +249,7 @@ Our mechanical design philosophy centers on achieving maximum capability within 
 - **Structural Material:** 3D-printed ABS for optimal strength-to-weight ratio
 - **Drive Configuration:** Rear-wheel drive with custom differential
 - **Steering System:** True Ackermann geometry with precision linkage
+
+<img width="1280" height="720" alt="General photo" src="https://github.com/user-attachments/assets/a38e96e7-8ce1-42a4-8b5b-656b6ea76058" />
+<img width="990" height="484" alt="CAD general photo" src="https://github.com/user-attachments/assets/5e7d8a4d-4c27-4bf3-9d51-a78bec260d9f" />
+
