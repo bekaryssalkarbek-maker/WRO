@@ -12,7 +12,7 @@ This repository documents our full engineering workflow, including system archit
 
 - 💾 [Code](./Code/)
 - 🔌 [Electronical Components (CAD)](./Electronical%20Components%20(CAD)/)
-- 🔌 [Electronical Components (Photos)](./Electronical%20Components%20(Photos)/)
+- 🔌 [Electronical Components(photos)](./Electronical%20Components%20(Photos)/)
 - 📚 [Engineer Journal](./Engineer%20Journal/)
 - ⚙ [Non-Electronical Components](./Non-Electronical%20Components/)
 - 🔌 [Schemes](./Schemes/)
