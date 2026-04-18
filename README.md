@@ -19,7 +19,7 @@ This repository documents our full engineering workflow, including system archit
 - 👥 Team
 - 🚗 Vehicle Photos
 - 📁 SRC
-- 
+
 ## 📂Complete Documentation Structure
 ### Each folder contains comprehensive README documentation with specialized technical content
 | 📁 Folder | 🎯 Technical Content | 📖 Detailed Documentation |
@@ -81,12 +81,23 @@ This repository documents our full engineering workflow, including system archit
 ## 👥The Team
 Team CyberBots includes passionate students working under the guidance of a coach. This is our first time competing in the WRO Future Engineers category (2026), where each member contributes unique skills to the project, including mechanical design, electronics, programming, and computer vision development.
 
+Bekarys Shalkarbek
+- Role: CAD modeling, electronics support, robot training and software development under coach supervision
+- Background: 10th grade student, NIS FMN Astana
+- Born: 2008, Kazakhstan
+- Contact: bekaryssalkarbek@gmail.com
 
+Anas Rustam
+- Role: Engineering support, electronics integration, hardware development
+- Background: School student
+- Born: Kazakhstan
 
-
-
-
-
+Coach:
+Nursultan Bahit
+- Role: Embedded Systems Engineer, CAD Designer, Robotics Engineer, Software & Backend Developer
+- Background: Bachelor Degree, Cybersecurity, Astana IT University
+- Born: 04.02.2007, Taraz, Kazakhstan
+- Contact: nursultanbahit409@gmail.com
 
 
 ## 🎯Challenge Overview
