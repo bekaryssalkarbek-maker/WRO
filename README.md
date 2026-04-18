@@ -188,3 +188,17 @@ The following folder contain the final assembled robot from different perspectiv
 |      SS12D10_90_Degree     |    ![SS12D10_90_Degree](https://github.com/user-attachments/assets/45f4b953-98b4-4426-b274-ee7f9f6c7a1c) |      SS12D10 90° Slide Switch (DIP) – SPDT slide switch, 90° actuation, DIP package, rated current ≈0.3–1 A, voltage ≈12–24 V DC, used for power/control switching in circuits. |   1  | 
 
 **Component Sourcing Rules:** Direct product links and pricing information are intentionally not included to ensure long-term accessibility and avoid outdated references. All listed components can be easily found online using their names and images, while their authenticity can be confirmed through the datasheets provided in this repository.
+
+### **⚡️Complete Wiring System**
+#### **Wiring Schematic & Physical Implementation**
+#### **1**
+<img width="1280" height="960" alt="full scheme" src="https://github.com/user-attachments/assets/54b185f3-cd24-4e35-bc5f-5de216cd842b" />
+
+#### **2**
+<img width="720" height="1280" alt="photo_2026-04-17_12-05-50" src="https://github.com/user-attachments/assets/2ccbdcd4-6c02-4028-869f-cd20d50bd9f9" />
+<img width="720" height="1280" alt="photo_2026-04-17_12-05-27" src="https://github.com/user-attachments/assets/7b9c2c86-8762-400e-9b0d-c4907345d5bf" />
+<img width="720" height="1280" alt="photo_2026-04-17_12-05-21" src="https://github.com/user-attachments/assets/965a1c76-98c0-44ce-b76c-4cdfd23806cf" />
+
+1) Complete hand-drawn and digitally traced wiring schematic showing full electrical connections
+2) Physical implementation demonstrating socket-based construction of the schematic
+
