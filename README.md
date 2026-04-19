@@ -268,8 +268,8 @@ Our mechanical design philosophy centers on achieving maximum capability within 
 
 | Component  | Quantity | Description | CAD Photo Preview |
 |-----------|-----------|-------------|-------------------|
-| **Main Chassis** | 1 | Primary structure with integrated mounting system |  |
-| **LEGO 4-Gear Differential**  | 1 |A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering. |  |
+| **Main Chassis** | 1 | Primary structure with integrated mounting system | <img width="375" height="280" alt="Снимок экрана 2026-04-19 041640" src="https://github.com/user-attachments/assets/8f615424-00b4-4475-abe0-ff03bb30dd29" />  |
+| **LEGO 4-Gear Differential**  | 1 |A LEGO differential is a drivetrain component that distributes torque between the left and right wheels, allowing them to rotate at different speeds during turns for smooth and stable cornering. | <img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/1c1c2c48-8ec9-4ada-a409-23abd6a652fe" /> |
 | **Bumper** | 1 |  A front bumper is a structural protective component mounted on the front of the robot, designed to absorb minor impacts and protect internal systems while maintaining clearance for the steering mechanism, and it also serves as a mounting point for LED headlights | <img width="556" height="422" alt="Снимок экрана 2026-04-16 015010" src="https://github.com/user-attachments/assets/1a684ae9-2750-41ef-a5d2-e526f7f97032" /> |
 | **Back right wheel fender** |  1 |  Protective wheel panel providing structural protection and body support. | <img width="475" height="440" alt="Снимок экрана 2026-04-16 142714" src="https://github.com/user-attachments/assets/e4ca66f8-c5de-4041-859c-59e8e564247f" />  |
 | **Back left wheel fender** | 1 | Protective wheel panel providing structural protection and body support. | <img width="475" height="440" alt="Снимок экрана 2026-04-16 142714" src="https://github.com/user-attachments/assets/bee1b1b7-691c-4c60-868c-511f0173ac1f" /> |
