@@ -292,3 +292,46 @@ Our mechanical design philosophy centers on achieving maximum capability within 
 | **180 degree gea** |  1 | Gear used for rotation of front wheels within the steering mechanism. | <img width="729" height="441" alt="Снимок экрана 2026-04-16 113746" src="https://github.com/user-attachments/assets/2abac45d-b16f-4f36-b3f8-9a46610f2776" /> |
 | **Wheel holder left** | 1 | Mount designed to secure the wheel and maintain correct alignment. | <img width="727" height="453" alt="Снимок экрана 2026-04-16 135411" src="https://github.com/user-attachments/assets/58fa46c3-0bb7-4486-9d35-7389be6198da" /> | 
 | **Lego wheels** | 4 |  Standard LEGO wheel used for robot movement, providing traction, stability, and reliable motion on the competition field. | <img width="385" height="325" alt="Снимок экрана 2026-04-16 165149" src="https://github.com/user-attachments/assets/88dc3f68-e868-42c3-83d1-f9f13da57646" /> |  
+
+### <img width="960" height="1280" alt="Building" src="https://github.com/user-attachments/assets/e61abfd0-6836-48f9-bbc0-2cf12cf05485" />
+Performance Engineering Analysis
+
+
+### Assembly Sequence:
+#### **Phase 1: Base Structure & Foundation Assembly**
+
+- **Bottom Layer Construction:** The assembly process began with the bottom structural layer, forming the main chassis “floor” as the primary load-bearing foundation for all components
+ 
+- **Electronics Mounting:** Installation of the Raspberry Pi and supporting electronic components directly onto the base layer for compact and stable integration
+
+- **Wiring & Connectivity Setup:** Organization and connection of all power and control wiring to ensure clean routing and accessibility
+
+- **Motor Installation:** Integration of the Yellow DC TT Gear Motor (3V–6V, 130–290 rpm, 1:48 gear ratio) as the main drivetrain motor, mounted securely onto the base structure
+
+- **Power System Integration:** Placement of the battery in an optimized position to maintain stable weight distribution and balance
+
+- **Initial Mechanical Alignment:** Early verification of structural alignment to ensure correct positioning of drivetrain components before upper assembly
+
+
+
+
+#### **Phase 2: Upper Structure & Mechanical Systems**
+
+- **Chassis Completion:** Installation of upper structural elements to protect internal systems while maintaining modular accessibility
+
+- **Steering System Integration:** Assembly of the front steering mechanism, including rotator system, with adjustments to avoid spatial conflicts with the bumper
+
+- **Wheel & Differential Installation:** Final integration of wheels and LEGO differential system, ensuring smooth torque transfer and correct alignment with the drivetrain
+
+
+#### **Phase 3: Final System Assembly & Validation**
+
+- **Full System Integration:** Connection of mechanical, electrical, and control systems into a unified working robot
+
+- **Structural Verification:** Final checks of mechanical stability, component fitment, and assembly integrity
+
+- **Functional Testing:** Validation of drivetrain efficiency, steering response, and overall robot movement performance
+
+<img width="960" height="1280" alt="Building" src="https://github.com/user-attachments/assets/682d037d-6add-4ad8-bc93-5d8f72fbed64" />
+
+  
